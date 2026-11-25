@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N2T Studio — Immortal Sword / Tu Tiên Sinh Tồn</title>
+  <style>
+    :root {
+      --bg: #0b0717;
+      --card: #150e2b;
+      --gold: #fde047;
+      --border: rgba(245, 198, 92, 0.36);
+      --text: #f5f2ff;
+      --sub: #b8aed6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at 50% 18%, #21134a 0%, var(--bg) 62%);
+      color: var(--text);
+    }
+    .hero {
+      width: 100%;
+      max-width: 680px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.6);
+    }
+    .studio-tag {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #7dd3fc;
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.8px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+      color: var(--gold);
+    }
+    p {
+      margin: 0 auto 20px;
+      max-width: 540px;
+      color: var(--sub);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 26px;
+    }
+    .chip {
+      padding: 6px 12px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 13px;
+      color: #e9e4ff;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 11px 20px;
+      border-radius: 12px;
+      font-weight: 800;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .btn-primary {
+      background: linear-gradient(180deg, #f59e0b, #b45309);
+      color: #1c0c02;
+    }
+    .btn-ghost {
+      border: 1px solid var(--border);
+      color: var(--gold);
+      background: rgba(255, 255, 255, 0.04);
+    }
+    footer {
+      margin-top: 26px;
+      font-size: 12.5px;
+      color: #8f82b5;
+    }
+  </style>
+</head>
+<body>
+  <main class="hero">
+    <div class="studio-tag">N2T STUDIO &bull; MOBILE GAMES</div>
+    <h1>Immortal Sword &bull; Tu Tiên Sinh Tồn</h1>
+    <p>
+      A fast-paced Xianxia survivor roguelite for Android. Command flying swords, evolve mythic skills,
+      conquer 50 Secret Realms &amp; the Celestial Tower, hatch Spirit Beasts, and survive the 9-Bolt Heavenly Tribulation!
+    </p>
+    <div class="chips">
+      <span class="chip">50 Secret Realms</span>
+      <span class="chip">9-Bolt Tribulation</span>
+      <span class="chip">5 Spirit Beasts</span>
+      <span class="chip">5 Languages (EN / VI / 繁中 / 한국어 / ไทย)</span>
+      <span class="chip">100% Offline Play</span>
+    </div>
+    <div class="links">
+      <a class="btn btn-primary" href="./privacy-policy.html">Privacy Policy</a>
+      <a class="btn btn-ghost" href="./app-ads.txt">app-ads.txt</a>
+    </div>
+    <footer>
+      &copy; 2026 N2T Studio &bull; Package: <code>com.n2tstudio.tutiensinhton</code>
+    </footer>
+  </main>
+</body>
+</html>
